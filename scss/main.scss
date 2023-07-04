@@ -1,0 +1,47 @@
+
+@import "./base/reset";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap');
+@import "./layout/contacto";
+@import "./layout/menu";
+@import "./layout/nosotros";
+@import "./layout/ubicacion";
+@import "./layout/header";
+
+
+h1, h2, h3, h4, p{
+    @include font
+}
+
+.container-fluid{
+    background-color: $color-primary;
+    flex-direction: row-reverse;
+}
+
+
+.nav-link:hover{
+    border: 2px solid $color-secundary;
+    color: $color-secundary;
+}
+
+.hero-container{
+    height: 600px;
+    background-image: url(../assets/img/fondo.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+    background-color: #020024a1;
+    text-align: center;
+    color: $color-secundary;
+}
+
+
+.visit{
+    background-color: $color-primary;
+    height: 1200px;
+}

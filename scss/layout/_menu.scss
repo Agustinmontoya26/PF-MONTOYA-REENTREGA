@@ -1,0 +1,55 @@
+.menu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page{
+    background-color: #c4c4c4;
+    width: 100%;
+}
+
+.colum-2.carta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.plato-carta{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(99, 89, 89) ;
+    border-radius: 6px;
+}
+
+.img-plato-carta{
+   display: flex;
+   flex-basis: 25%;
+   justify-content: center; 
+}
+
+.img-producto{
+    max-width: 100px;
+    height: auto;
+}
+
+.tittle-plato-carta{
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+}
+
+.precio-plato-carta{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media (max-width: 680px){
+    .colum-2.carta{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

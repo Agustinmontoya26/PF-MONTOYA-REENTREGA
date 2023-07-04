@@ -1,0 +1,17 @@
+//Ubicacion
+.ubicacion{
+    width: 100%;
+    background-image: linear-gradient(rgb(168, 168, 168), white);
+}
+
+.contenedorflex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.izquierda{
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+}

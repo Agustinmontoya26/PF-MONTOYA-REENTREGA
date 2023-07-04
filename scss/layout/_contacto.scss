@@ -1,0 +1,56 @@
+.tittle-contacto{
+    color: $color-secundary;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.body-form{
+    background-image: url(../assets/img/fondo-contacto.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton{
+    background-color: #684b4b;
+    color: $color-secundary;
+    padding: 20px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #ff8d8d;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px){ 
+    form{
+        width: 100%;
+    }
+}

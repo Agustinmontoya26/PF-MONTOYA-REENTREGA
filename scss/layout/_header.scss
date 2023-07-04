@@ -1,0 +1,91 @@
+.logo{
+    width: 200px;
+}
+
+.items{
+    justify-content: flex-end;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cocina{
+    width: 50%;
+    height: 80%;
+    margin-top: 25px;
+    margin-left: 20%;
+    border: solid black 2px;
+}
+
+.text{
+    width: 200px;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+@media (min-width:600px) and (orientation: landscape){
+    .descripcion{
+        flex-flow: row wrap;}
+
+    .cocina{
+        width: 35%;
+        height: 80%;
+        margin-left: 10%;
+    }
+
+    .text{
+        width: 400px;
+        height: 150px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nosotros-image{
+    width: 50%;
+    height: 80%;
+    margin-top: 25px;
+    margin-left: 20%;
+    border: solid black 2px;
+}
+
+.nosotros-text{
+    width: 200px;
+    height: 300px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+@media (min-width:600px) and (orientation: landscape){
+    .nosotros{
+        flex-flow: row wrap;
+    }
+
+    .nosotros-image{
+        width: 35%;
+        height: 80%;
+        margin-left: 10%;
+    }
+
+    .nosotros-text{
+        width: 600px;
+        height: 150px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+}
+
